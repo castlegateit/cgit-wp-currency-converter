@@ -50,7 +50,7 @@ class Plugin
         global $wpdb;
 
         // Database table names
-        self::$table = $wpdb->prefix . 'cgit_currency_codes';
+        self::$table = $wpdb->base_prefix . 'cgit_currency_codes';
 
         // Path to main plugin file
         $plugin = CGIT_CURRENCY_CONVERTER_FILE;

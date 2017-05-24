@@ -5,7 +5,7 @@
 Plugin Name: Castlegate IT WP Currency Converter
 Plugin URI: http://github.com/castlegateit/cgit-wp-currency-converter
 Description: Currency conversion via Fixer.io
-Version: 1.0
+Version: 1.0.1
 Author: Castlegate IT
 Author URI: http://www.castlegateit.co.uk/
 License: MIT
