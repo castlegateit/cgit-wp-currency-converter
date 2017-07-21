@@ -211,7 +211,7 @@ class Converter
     {
         $code = strtoupper($input);
 
-        if (!in_array($code, Plugin::$codes)) {
+        if (!in_array($code, RateUpdater::$codes)) {
             trigger_error('Unknown currency: ' . $code);
             return false;
         }
